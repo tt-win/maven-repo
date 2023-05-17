@@ -1,0 +1,217 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "core.framework",
+    "module": "core-spring-boot",
+    "version": "1.4.2-b1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "core.framework",
+          "module": "core",
+          "version": {
+            "requires": "1.4.2-b1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.7.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-spring-boot-1.4.2-b1.jar",
+          "url": "core-spring-boot-1.4.2-b1.jar",
+          "size": 18547,
+          "sha512": "9c89819215d6f9c4bdfe33464fbb6ab46c831d39b4f62e585a0201606371510b196dee2ca38d7866ccd366a81124dbcf6b79f2cfad3a8ae98b26724044d3a7eb",
+          "sha256": "093a5e31d45cf455e60382dd419664f1de43b76dd17aff6a86be533b29ce22cb",
+          "sha1": "517f65c96e7b297de781b59aba95d7da1f6d7ab5",
+          "md5": "f8f9ad14a249b18694e5a8f4626b9078"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "5.6.10.Final"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-afterburner",
+          "version": {
+            "requires": "2.10.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-undertow",
+          "version": {
+            "requires": "2.7.11"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        },
+        {
+          "group": "io.undertow",
+          "module": "undertow-core",
+          "version": {
+            "requires": "2.2.24.Final"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        },
+        {
+          "group": "io.undertow",
+          "module": "undertow-servlet",
+          "version": {
+            "requires": "2.2.24.Final"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        },
+        {
+          "group": "core.framework",
+          "module": "core",
+          "version": {
+            "requires": "1.4.2-b1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.7.11"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-spring-boot-1.4.2-b1.jar",
+          "url": "core-spring-boot-1.4.2-b1.jar",
+          "size": 18547,
+          "sha512": "9c89819215d6f9c4bdfe33464fbb6ab46c831d39b4f62e585a0201606371510b196dee2ca38d7866ccd366a81124dbcf6b79f2cfad3a8ae98b26724044d3a7eb",
+          "sha256": "093a5e31d45cf455e60382dd419664f1de43b76dd17aff6a86be533b29ce22cb",
+          "sha1": "517f65c96e7b297de781b59aba95d7da1f6d7ab5",
+          "md5": "f8f9ad14a249b18694e5a8f4626b9078"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-spring-boot-1.4.2-b1-sources.jar",
+          "url": "core-spring-boot-1.4.2-b1-sources.jar",
+          "size": 11558,
+          "sha512": "0bbbb01344d64cce99de14d058674316e5e9762c0c5d003b9ee6153d35125bfab258f78d629a5bcf8a3e25e18a9813cf745eea6dda4e6da1507c459a020ec694",
+          "sha256": "128e4ae5f928b7daf097a92da42f34d729375665aeff358adc22fedd4786ddf4",
+          "sha1": "638458027c30633acb63d49ec8bd7f93c87eb797",
+          "md5": "1f4cb6346630f0e26f780b36b3654e49"
+        }
+      ]
+    }
+  ]
+}
