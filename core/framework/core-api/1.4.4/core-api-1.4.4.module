@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "core.framework",
+    "module": "core-api",
+    "version": "1.4.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "core-api-1.4.4.jar",
+          "url": "core-api-1.4.4.jar",
+          "size": 10640,
+          "sha512": "2b1c38d0322a3ad3fcf328f57d83a731bbc6a13866b91669abad0446b38a496a52182c639fca8807ec7f75c276d72f55b15461a75024c8bfcc5aba32b2b7c238",
+          "sha256": "ecab8100085c6c067352112be3bab334221812cf4b9d8f70fc9bcde52332717a",
+          "sha1": "72c7fb24d1ef8e2453b3ccf7bab1a6713b5e7fca",
+          "md5": "0f22eeea6298310287de19ce7bc21bf8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-api-1.4.4.jar",
+          "url": "core-api-1.4.4.jar",
+          "size": 10640,
+          "sha512": "2b1c38d0322a3ad3fcf328f57d83a731bbc6a13866b91669abad0446b38a496a52182c639fca8807ec7f75c276d72f55b15461a75024c8bfcc5aba32b2b7c238",
+          "sha256": "ecab8100085c6c067352112be3bab334221812cf4b9d8f70fc9bcde52332717a",
+          "sha1": "72c7fb24d1ef8e2453b3ccf7bab1a6713b5e7fca",
+          "md5": "0f22eeea6298310287de19ce7bc21bf8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-api-1.4.4-sources.jar",
+          "url": "core-api-1.4.4-sources.jar",
+          "size": 8477,
+          "sha512": "09f2c67d7c043f34bad0f8d44a07de9d7fcf14d42608c9b5dd03d5ac671a16250b2b8db4b6fcc9be9d9b526a882479c95f36a2fd0e3e936e48af609e04ec0cd4",
+          "sha256": "f0a8edff64356f1369ec60190c3f496134223661ba28159c9f6d5df98a60064b",
+          "sha1": "ff98efb933a4e190297e0aceba44d0d14b8acaf9",
+          "md5": "b5a5829a06abaec2f635a0ebcb2b90cd"
+        }
+      ]
+    }
+  ]
+}
