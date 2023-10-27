@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "core.framework",
+    "module": "core-test",
+    "version": "1.4.4-2b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.9.2"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-junit-jupiter",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-inline",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "org.assertj",
+          "module": "assertj-core",
+          "version": {
+            "requires": "3.24.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-test-1.4.4-2b.jar",
+          "url": "core-test-1.4.4-2b.jar",
+          "size": 17933,
+          "sha512": "cff3555cc90c0e0ed8d03fc2aec85dc20c89e48be462c9454b243f0178a9a8402ef9b5e80ccac64bb0fc95eb2e5d9cc9a779fc1abdf10ee8b68229d63541650b",
+          "sha256": "752e201214202d5fddb7e970b640aef222c6f7c3a8daff85b56ac8dacbdbedc5",
+          "sha1": "2043ca6eb57c7370088f03f7ae5e19c085b1c4ca",
+          "md5": "503f18a46c1ddd20eb2ab9de1cbfaa6e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "core.framework",
+          "module": "core",
+          "version": {
+            "requires": "1.4.4-2b"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-engine",
+          "version": {
+            "requires": "5.9.2"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.9.2"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-junit-jupiter",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-inline",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "org.assertj",
+          "module": "assertj-core",
+          "version": {
+            "requires": "3.24.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-test-1.4.4-2b.jar",
+          "url": "core-test-1.4.4-2b.jar",
+          "size": 17933,
+          "sha512": "cff3555cc90c0e0ed8d03fc2aec85dc20c89e48be462c9454b243f0178a9a8402ef9b5e80ccac64bb0fc95eb2e5d9cc9a779fc1abdf10ee8b68229d63541650b",
+          "sha256": "752e201214202d5fddb7e970b640aef222c6f7c3a8daff85b56ac8dacbdbedc5",
+          "sha1": "2043ca6eb57c7370088f03f7ae5e19c085b1c4ca",
+          "md5": "503f18a46c1ddd20eb2ab9de1cbfaa6e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-test-1.4.4-2b-sources.jar",
+          "url": "core-test-1.4.4-2b-sources.jar",
+          "size": 9207,
+          "sha512": "1e9d5f755bde2066fa4e786d1ca264a3ae6a47e0fb9e7c8140f764d9f745dbfbd7ff4e961ca8bc451a9d628143b154b9000453fdfdce8cedddf53baf7194e40c",
+          "sha256": "2fca42418f191d84e2d86856b711473f1d5d2523699e52b14e9a0a666ae15e23",
+          "sha1": "0de422276eb2b0e9268c3dd2ebdff185345f3ebb",
+          "md5": "3f0530ce8852473e662eb2da38507087"
+        }
+      ]
+    }
+  ]
+}

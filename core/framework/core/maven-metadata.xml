@@ -3,8 +3,8 @@
   <groupId>core.framework</groupId>
   <artifactId>core</artifactId>
   <versioning>
-    <latest>1.4.4-1b</latest>
-    <release>1.4.4-1b</release>
+    <latest>1.4.4-2b</latest>
+    <release>1.4.4-2b</release>
     <versions>
       <version>1.0.0</version>
       <version>1.1.0</version>
@@ -28,7 +28,8 @@
       <version>1.4.3-b5</version>
       <version>1.4.4</version>
       <version>1.4.4-1b</version>
+      <version>1.4.4-2b</version>
     </versions>
-    <lastUpdated>20231026152707</lastUpdated>
+    <lastUpdated>20231027040304</lastUpdated>
   </versioning>
 </metadata>
