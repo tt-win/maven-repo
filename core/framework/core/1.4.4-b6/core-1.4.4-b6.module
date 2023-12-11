@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "core.framework",
+    "module": "core",
+    "version": "1.4.4-b6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "core.framework",
+          "module": "core-api",
+          "version": {
+            "requires": "1.4.4-b6"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-1.4.4-b6.jar",
+          "url": "core-1.4.4-b6.jar",
+          "size": 442023,
+          "sha512": "2ba82982a9273ad42d9f0955bf69dfa655cf181214b45e3d9fa6c88a9535fbfde36b6cada01aa9fa56f4aab8cdecd83d40b83d9a6fe621f3e55ddf74494c0058",
+          "sha256": "6314a6710dc5510982ef2a5e2ee492801209fa289a22ba48587df6dbd4b53fd4",
+          "sha1": "ac3811dd63341091cef00e12a2c6a99c742c2344",
+          "md5": "c741fea854479e6056ec0598c635833d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.javassist",
+          "module": "javassist",
+          "version": {
+            "requires": "3.29.1-GA"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.10.5"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jdk8",
+          "version": {
+            "requires": "2.10.5"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.10.5"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-afterburner",
+          "version": {
+            "requires": "2.10.5"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.3"
+          }
+        },
+        {
+          "group": "io.undertow",
+          "module": "undertow-core",
+          "version": {
+            "requires": "2.2.24.Final"
+          }
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "4.0.3"
+          }
+        },
+        {
+          "group": "org.apache.kafka",
+          "module": "kafka-clients",
+          "version": {
+            "requires": "3.4.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "kafka-clients",
+              "type": "jar",
+              "extension": "jar"
+            }
+          }
+        },
+        {
+          "group": "org.xerial.snappy",
+          "module": "snappy-java",
+          "version": {
+            "requires": "1.1.8.4"
+          }
+        },
+        {
+          "group": "core.framework",
+          "module": "core-api",
+          "version": {
+            "requires": "1.4.4-b6"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-1.4.4-b6.jar",
+          "url": "core-1.4.4-b6.jar",
+          "size": 442023,
+          "sha512": "2ba82982a9273ad42d9f0955bf69dfa655cf181214b45e3d9fa6c88a9535fbfde36b6cada01aa9fa56f4aab8cdecd83d40b83d9a6fe621f3e55ddf74494c0058",
+          "sha256": "6314a6710dc5510982ef2a5e2ee492801209fa289a22ba48587df6dbd4b53fd4",
+          "sha1": "ac3811dd63341091cef00e12a2c6a99c742c2344",
+          "md5": "c741fea854479e6056ec0598c635833d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-1.4.4-b6-sources.jar",
+          "url": "core-1.4.4-b6-sources.jar",
+          "size": 242092,
+          "sha512": "4624751ed6133d91a8d6f401a93d967ea7249d7f0f564fecb27292bc56d91b41841cc4327646012e4292397a924c770db034d4a36e3dc60a58b6df6732a230c2",
+          "sha256": "ef770889ef926669ebf3280a1db11d6f6c60a5fb8ee2e9bbb79564318bccf07d",
+          "sha1": "1f3f2d7a547b64f0d6608b5be9fc711157fd99f6",
+          "md5": "bf2147f420be36491388ecae64d6dbd2"
+        }
+      ]
+    }
+  ]
+}
