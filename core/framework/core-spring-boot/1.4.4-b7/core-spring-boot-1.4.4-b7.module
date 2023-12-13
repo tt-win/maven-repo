@@ -1,0 +1,251 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "core.framework",
+    "module": "core-spring-boot",
+    "version": "1.4.4-b7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "core.framework",
+          "module": "core",
+          "version": {
+            "requires": "1.4.4-b7"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.7.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-spring-boot-1.4.4-b7.jar",
+          "url": "core-spring-boot-1.4.4-b7.jar",
+          "size": 18573,
+          "sha512": "540ad5caf6226a2669b8ae952abd8b1f397542f6b9f08b5abb486724c98eb10227d144e45bff391d0c7c117362bc2f18c08ffcfa73023a84694c07f0a4f86b26",
+          "sha256": "3e7eb7ac655cdab77b2c1e71a395da00fc9119a5583e3ed549b2609297f2c427",
+          "sha1": "75980150b78d363139574f8cf7aacca428b285fb",
+          "md5": "26c55499a82cc8249af1f40495b46f18"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "5.6.10.Final"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-afterburner",
+          "version": {
+            "requires": "2.10.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-undertow",
+          "version": {
+            "requires": "2.7.11"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        },
+        {
+          "group": "io.undertow",
+          "module": "undertow-core",
+          "version": {
+            "requires": "2.2.24.Final"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        },
+        {
+          "group": "io.undertow",
+          "module": "undertow-servlet",
+          "version": {
+            "requires": "2.2.24.Final"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-aop",
+          "version": {
+            "requires": "4.3.12.RELEASE"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-aspects",
+          "version": {
+            "requires": "4.3.12.RELEASE"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        },
+        {
+          "group": "core.framework",
+          "module": "core",
+          "version": {
+            "requires": "1.4.4-b7"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.7.11"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-boot-starter-logging"
+            },
+            {
+              "group": "*",
+              "module": "spring-boot-starter-tomcat"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-spring-boot-1.4.4-b7.jar",
+          "url": "core-spring-boot-1.4.4-b7.jar",
+          "size": 18573,
+          "sha512": "540ad5caf6226a2669b8ae952abd8b1f397542f6b9f08b5abb486724c98eb10227d144e45bff391d0c7c117362bc2f18c08ffcfa73023a84694c07f0a4f86b26",
+          "sha256": "3e7eb7ac655cdab77b2c1e71a395da00fc9119a5583e3ed549b2609297f2c427",
+          "sha1": "75980150b78d363139574f8cf7aacca428b285fb",
+          "md5": "26c55499a82cc8249af1f40495b46f18"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-spring-boot-1.4.4-b7-sources.jar",
+          "url": "core-spring-boot-1.4.4-b7-sources.jar",
+          "size": 11585,
+          "sha512": "050a42a30756b0fb68ab6aacea85665b132c0145847983d577aa64a37932c4e916df5475835b8b5d6ab243c84b79b71c1d2118c8ac63bda4fdce548594a03f9a",
+          "sha256": "d9a925495ccf6fe0510a94dc8de23978287b580f50138f9041aa92519b96ddf3",
+          "sha1": "837002bcbe04265dffc9dcc7607af6d4c0aa9d54",
+          "md5": "636c0d893c440f8020698edcfc732722"
+        }
+      ]
+    }
+  ]
+}
